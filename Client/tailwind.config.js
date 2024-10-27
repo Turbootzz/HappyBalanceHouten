@@ -4,13 +4,13 @@ module.exports = {
   theme: {
     extend: {
       backgroundColor: {
-        mainbg: "#FFCF9D",
+        mainbg: "#EDE8DC",
       },
       colors: {
-        main: "#FFB38E",
-        mainlight: "#FFCF9D",
-        maindark: "#FFB26F",
-        maindarker: "#DE8F5F",
+        main: "#E7CCCC",
+        mainlight: "#EDE8DC",
+        maindark: "#C1CFA1",
+        maindarker: "#A5B68D",
       },
     },
   },

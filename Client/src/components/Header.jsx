@@ -1,21 +1,18 @@
 import React from "react";
 import { phone } from "../config/config";
+import hblogo from "../assets/img/hb-logo.jpg";
 
 export default function Header() {
   return (
     <header>
       <nav>
-        <nav className="bg-mainbg border-gray-200 dark:bg-gray-900">
-          <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4">
+        <nav className="border-gray-200 dark:bg-maindarker">
+          <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
             <a
               href="../pages/Home.jsx"
               className="flex items-center space-x-3 rtl:space-x-reverse"
             >
-              <img
-                src="https://flowbite.com/docs/images/logo.svg"
-                className="h-8"
-                alt="HappyBalance Logo"
-              />
+              <img src={hblogo} className="h-20" alt="HappyBalance Logo" />
               <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
                 Happy Balance
               </span>
@@ -30,7 +27,7 @@ export default function Header() {
             </div>
           </div>
         </nav>
-        <nav className="bg-gray-50 dark:bg-gray-700">
+        <nav className="bg-gray-50 dark:bg-maindark">
           <div className="max-w-screen-xl px-4 py-3 mx-auto">
             <div className="flex items-center">
               <ul className="flex flex-row font-medium mt-0 space-x-8 rtl:space-x-reverse text-sm">
