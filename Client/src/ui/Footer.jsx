@@ -6,7 +6,7 @@ import { email } from "../config/config";
 
 export default function Footer() {
   return (
-    <footer class="bg-maindarker min-h-svh grow">
+    <footer class="bg-maindarker grow">
       <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div class="md:flex md:justify-between">
           <div class="mb-6 md:mb-0">
