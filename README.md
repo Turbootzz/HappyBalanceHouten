@@ -2,4 +2,4 @@
 
 ## Design
 
-[Color Palatte](https://colorhunt.co/palette/ffb38effcf9dffb26fde8f5f)
+[Color Palatte](https://colorhunt.co/palette/e7ccccede8dca5b68dc1cfa1)
