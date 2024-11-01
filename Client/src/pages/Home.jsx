@@ -1,15 +1,17 @@
 import React from "react";
 import Header from "../ui/Header";
 import Footer from "../ui/Footer";
+import babyimg from "../assets/img/img1.jpeg"
 
 export default function Home() {
   return (
     <>
       <Header />
       <main className="md:container mx-auto px-10">
-        <h1 className="text-4xl font-bold">Babymassage</h1>
+        <h1 className="text-4xl font-bold pt-16">Babymassage</h1>
         <br />
-        <p>
+        <div className="flex">
+        <p className="flex-1">
           Deze massage biedt vele voordelen:
           <menu className="list-disc">
             <li>
@@ -37,6 +39,8 @@ export default function Home() {
             <li>Beter inmuunsysteem.</li>
           </menu>
         </p>
+        <img src={babyimg} className="mx-12 flex-none max-h-80 rounded-2xl" />
+        </div>
         <hr className="h-px my-8 bg-main border-0" />
         <h2 className="text-2xl font-bold">Over mij</h2>
         <p>
