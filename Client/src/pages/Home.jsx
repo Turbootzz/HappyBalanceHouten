@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <Header />
-      <main className="md:container mx-auto px-10">
+      <main className="container md:container mx-auto px-10">
         <h1 className="text-4xl font-bold pt-16">Babymassage</h1>
         <br />
         <div className="flex">
@@ -39,7 +39,7 @@ export default function Home() {
             <li>Beter inmuunsysteem.</li>
           </menu>
         </p>
-        <img src={babyimg} className="mx-12 flex-none max-h-80 rounded-2xl" />
+        <img src={babyimg} className="mx-12 flex-none max-h-80 rounded-2xl" alt="Baby Massage"/>
         </div>
         <hr className="h-px my-8 bg-main border-0" />
         <h2 className="text-2xl font-bold">Over mij</h2>
