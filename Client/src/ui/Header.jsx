@@ -1,6 +1,6 @@
 import React from "react";
-import { phone } from "../config/config";
-import hblogo from "../assets/img/hb-logo.jpg";
+//import { phone } from "../config/config";
+import hblogo from "../assets/img/hb-logo.png";
 
 export default function Header() {
   return (
@@ -17,14 +17,14 @@ export default function Header() {
                 Happy Balance
               </span>
             </a>
-            <div className="flex items-center space-x-6 rtl:space-x-reverse">
+            {/* <div className="flex items-center space-x-6 rtl:space-x-reverse">
               <a
                 href={"tel:" + phone}
                 className="text-sm  text-gray-500 dark:text-white hover:underline"
               >
                 {phone}
               </a>
-            </div>
+            </div> */}
           </div>
         </nav>
         <nav className="bg-gray-50 dark:bg-maindark">
