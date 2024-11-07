@@ -84,7 +84,7 @@ export default function Footer() {
             . All Rights Reserved.
           </span>
           <div class="flex mt-4 sm:justify-center sm:mt-0">
-            <a href="#" class="text-white hover:text-main">
+            <a href="/" class="text-white hover:text-main">
               <svg
                 class="w-4 h-4"
                 aria-hidden="true"
