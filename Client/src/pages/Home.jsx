@@ -8,6 +8,20 @@ export default function Home() {
     <>
       <Header />
       <main className="container mx-auto">
+        <article className="bg-main">
+          <div className="px-5 md:px-10">
+            <h1 className="font-pacifico text-5xl md:text-4xl pt-24">
+              Happy Balance!
+            </h1>
+            <p className="text-lg pt-12 pb-8">-- Ontspannen en in balans</p>
+            <a href="#overmij">
+            <button class="hover:bg-maindarker text-black font-semibold py-2 px-4 border border-black rounded-3xl shadow">
+              Leer meer
+            </button>
+            </a>
+            <div class="pb-36"></div>
+          </div>
+        </article>
         <article className="bg-mainbg">
           <div className="px-2 md:px-10">
             <h1 className="text-3xl md:text-4xl font-bold pt-16">
@@ -15,34 +29,40 @@ export default function Home() {
             </h1>
             <br />
             <div className="md:flex">
-              <p className="text-sm md:text-base md:flex-1">
-                Deze massage biedt vele voordelen:
-                <menu className="list-disc">
+              <p className="text-base md:text-base md:flex-1">
+                Deze massage biedt vele voordelen:</p>
+                <menu className="list-disc text-sm md:text-base md:flex-1 pb-4">
+                <br />
                   <li>
                     Door de <b>massage/aanraking</b> geeft het je kindje een
                     geborgen en vertrouwd gevoel.
                   </li>
+                  <br />
                   <li>
                     Heeft een positief effect op de lichamelijke en emotionele
                     ontwikkeling van je baby en <b>versterkt je band</b>.
                   </li>
+                  <br />
                   <li>
                     Prikkelgevoelige(sensitieve) baby’s/ huilbaby ’s ontspannen
                     en kalmeren door massage en zullen ook hierdoor beter tot
                     rust komen en <b>makkelijker in slaap vallen</b>.
                   </li>
+                  <br />
                   <li>
                     Betere spijsvertering/ geeft verlichting bij buikkrampjes en
                     obstipatie en overstrekking.
                   </li>
+                  <br />
                   <li>
                     Versterkt de band tussen jou en je baby, een 1 op 1 momentje
                     samen.
                   </li>
+                  <br />
                   <li>Bevordert de doorbloeding.</li>
+                  <br />
                   <li>Beter inmuunsysteem.</li>
                 </menu>
-              </p>
               <div class="md:h-52 md:mt-6 md:mx-3 md:bg-main md:w-px mt-6"></div>
               <div className="flex content-center items-center justify-center">
                 <img
