@@ -12,7 +12,11 @@ module.exports = {
         maindark: "#C1CFA1",
         maindarker: "#A5B68D",
       },
+      fontFamily: {
+        noto: ['Noto Serif', 'serif'],
+        pacifico: ['Pacifico', 'cursive'],
     },
   },
   plugins: [],
+  }
 };

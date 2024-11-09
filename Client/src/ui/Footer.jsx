@@ -1,12 +1,12 @@
 import React from "react";
 
-import hblogo from "../assets/img/hb-logo.jpg";
+import hblogo from "../assets/img/hb-logo.png";
 import { phone } from "../config/config";
 import { email } from "../config/config";
 
 export default function Footer() {
   return (
-    <footer class="bg-maindarker min-h-svh grow">
+    <footer class="bg-maindarker grow">
       <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div class="md:flex md:justify-between">
           <div class="mb-6 md:mb-0">
@@ -19,10 +19,10 @@ export default function Footer() {
           </div>
           <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
             <div>
-              <h2 class="mb-6 text-sm font-semibold text-white uppercase">
+              <h2 class="mb-6 text-xs md:text-sm font-semibold text-white uppercase">
                 Contact
               </h2>
-              <ul class="text-main font-medium">
+              <ul class="text-main text-xs md:text-sm font-medium">
                 <li class="mb-4">
                   <a href={"mailto:" + email} class="hover:text-white">
                     {email}
@@ -36,10 +36,10 @@ export default function Footer() {
               </ul>
             </div>
             <div>
-              <h2 class="mb-6 text-sm font-semibold text-white uppercase">
+              <h2 class="mb-6 text-xs md:text-sm font-semibold text-white uppercase">
                 Social Media
               </h2>
-              <ul class="text-main font-medium">
+              <ul class="text-main text-xs md:text-sm font-medium">
                 <li class="mb-4">
                   <a
                     href="https://www.instagram.com/happy_balancehouten/"
@@ -56,10 +56,10 @@ export default function Footer() {
               </ul>
             </div>
             <div>
-              <h2 class="mb-6 text-sm font-semibold text-white uppercase">
+              <h2 class="mb-6 text-xs md:text-sm font-semibold text-white uppercase">
                 Legal
               </h2>
-              <ul class="text-main font-medium">
+              <ul class="text-main text-xs md:text-sm font-medium">
                 <li class="mb-4">
                   <a href="/" class="hover:text-white">
                     Privacy Policy
@@ -76,7 +76,7 @@ export default function Footer() {
         </div>
         <hr class="my-6 border-white sm:mx-auto lg:my-8" />
         <div class="sm:flex sm:items-center sm:justify-between">
-          <span class="text-sm text-white sm:text-center">
+          <span class="text-xs md:text-sm text-white sm:text-center">
             © 2024{" "}
             <a href="/" class="hover:underline">
               HappyBalanceHouten™
@@ -84,7 +84,7 @@ export default function Footer() {
             . All Rights Reserved.
           </span>
           <div class="flex mt-4 sm:justify-center sm:mt-0">
-            <a href="#" class="text-white hover:text-main">
+            <a href="/" class="text-white hover:text-main">
               <svg
                 class="w-4 h-4"
                 aria-hidden="true"
