@@ -10,7 +10,7 @@ export default function Home() {
       <Header />
       <main className="mx-auto">
         <article className="bg-main">
-          <div className="px-5 md:px-10">
+          <div className="px-5 md:px-10 lg:px-56">
             <h1 className="font-pacifico text-5xl md:text-7xl pt-24">
               Happy Balance!
             </h1>
@@ -24,9 +24,11 @@ export default function Home() {
             </a>
             <div class="pb-36"></div>
           </div>
+          <hr className="h-px my-8 bg-maindark border-0" />
         </article>
+
         <article className="bg-mainbg">
-          <div className="px-2 md:px-10">
+          <div className="px-2 md:px-10 lg:px-56">
             <h1 className="text-3xl md:text-4xl font-bold pt-16">
               Babymassage
             </h1>
@@ -82,13 +84,13 @@ export default function Home() {
         </article>
         <article className="bg-main">
           <hr className="h-px my-8 bg-maindark border-0" />
-          <div className="px-2 md:px-10 pb-10 md:flex">
+          <div className="px-2 md:px-10 pb-10 md:flex lg:px-56">
             <img
               src={ingridimg}
               className="my-10 md:mt-20 md:mr-10 md:flex-none md:max-h-60 rounded-full"
               alt="Baby Massage"
             />
-            <div class="md:h-96 md:mt-6 md:mr-12 md:bg-maindarker md:w-px"></div>
+            <div class="md:h-96 md:my-6 md:mr-12 md:bg-maindarker md:w-px"></div>
             <div className="flex-1">
               <h2 id="overmij" className="text-xl md:text-2xl font-bold mb-1">
                 Over mij
@@ -122,7 +124,7 @@ export default function Home() {
           <hr className="h-px mb-8 md:my-8 bg-maindark border-0" />
         </article>
         <article className="bg-mainbg">
-          <div className="px-2 md:px-10 md:flex">
+          <div className="px-2 md:px-10 md:flex lg:px-56">
             <div className="md:flex-1 mb-10">
               <h2 className="text-xl md:text-2xl font-bold mb-4">
                 Cursus volgen
@@ -147,7 +149,7 @@ export default function Home() {
                 masseren hun eigen baby en ik doe de massage voor op de pop.
               </p>
             </div>
-            <div class="md:h-96 md:mt-6 md:mx-12 md:bg-maindarker md:w-px"></div>
+            <div class="md:max-h-96 md:my-6 md:mx-12 md:bg-maindarker md:w-px"></div>
             <div className="md:flex-1 mb-8">
               <h2 className="text-xl md:text-2xl font-bold mb-4">
                 Data en kosten
