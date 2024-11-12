@@ -33,7 +33,7 @@ export default function Header() {
               <ul className="flex flex-row font-medium mt-0 space-x-8 rtl:space-x-reverse text-sm">
                 <li>
                   <a
-                    href="../pages/Home.jsx"
+                    href="Home.jsx"
                     className="text-gray-900 dark:text-white hover:underline"
                     aria-current="page"
                   >
@@ -50,7 +50,7 @@ export default function Header() {
                 </li>
                 <li>
                   <a
-                    href="../pages/Contact.jsx"
+                    href="Contact.jsx"
                     className="text-gray-900 dark:text-white hover:underline"
                   >
                     Contact
@@ -58,7 +58,7 @@ export default function Header() {
                 </li>
                 <li>
                   <a
-                    href="../pages/terms.jsx"
+                    href="Voorwaarden.jsx"
                     className="text-gray-900 dark:text-white hover:underline"
                   >
                     Voorwaarden

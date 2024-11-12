@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "../pages/Home";
 import Contact from "../pages/Contact";
+import Voorwaarden from "../pages/Voorwaarden";
 import NoPage from "../pages/NoPage";
 // import logo from "../assets/img/react-logo.svg";
 
@@ -9,8 +10,9 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route index element={<Home />} />
-        <Route path="../pages/Home.jsx" element={<Home />} />
-        <Route path="../pages/Contact.jsx" element={<Contact />} />
+        <Route path="Home.jsx" element={<Home />} />
+        <Route path="Contact.jsx" element={<Contact />} />
+        <Route path="Voorwaarden.jsx" element={<Voorwaarden />} />
         <Route path="*" element={<NoPage />} />
       </Routes>
     </BrowserRouter>
