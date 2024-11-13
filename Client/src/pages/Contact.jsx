@@ -1,7 +1,9 @@
 import React from "react";
 import Header from "../ui/Header";
 import Footer from "../ui/Footer";
+import ContactForm from "../components/ContactForm";
 import ingridimg from "../assets/img/selfsmall.jpg";
+import { phone, email } from "../config/config";
 
 export default function Contact() {
   return (
@@ -13,7 +15,9 @@ export default function Contact() {
             <h1 className="font-pacifico text-5xl md:text-7xl pt-24">
               Contacteer mij
             </h1>
-            <p className="text-lg pt-12 pb-8">Vul hieronder het formulier in</p>
+            <p className="text-lg pt-12 pb-8 md:pl-3">
+              Vul hieronder het formulier in
+            </p>
             <div className="pb-10"></div>
           </div>
         </article>
@@ -22,14 +26,11 @@ export default function Contact() {
             <div className="mt-6 max-w-6xl max-lg:max-w-3xl mx-auto bg-main rounded-lg">
               <div className="grid lg:grid-cols-2 items-center gap-14 sm:p-8 p-4 font-[sans-serif]">
                 <div>
-                  <h1 className="text-4xl font-bold text-white">
-                    Get in Touch
-                  </h1>
-                  <p className="text-sm text-gray-300 mt-4 leading-relaxed">
-                    Have some big idea or brand to develop and need help? Then
-                    reach out we'd love to hear about your project and provide
-                    help.
-                  </p>
+                  <img
+                    src={ingridimg}
+                    className="md:mr-10 md:flex-none md:max-h-60 rounded-full"
+                    alt="Baby Massage"
+                  />
 
                   <ul className="mt-12 space-y-8">
                     <li className="flex items-center">
@@ -37,7 +38,7 @@ export default function Contact() {
                         xmlns="http://www.w3.org/2000/svg"
                         width="16px"
                         height="16px"
-                        fill="#fff"
+                        fill="#000"
                         viewBox="0 0 479.058 479.058"
                       >
                         <path
@@ -45,19 +46,14 @@ export default function Contact() {
                           data-original="#000000"
                         />
                       </svg>
-                      <a
-                        href="javascript:void(0)"
-                        className="text-white text-sm ml-4"
-                      >
-                        info@example.com
-                      </a>
+                      <div className="text-gray-700 text-sm ml-4">{email}</div>
                     </li>
                     <li className="flex items-center">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="16px"
                         height="16px"
-                        fill="#fff"
+                        fill="#000"
                         viewBox="0 0 482.6 482.6"
                       >
                         <path
@@ -65,19 +61,14 @@ export default function Contact() {
                           data-original="#000000"
                         ></path>
                       </svg>
-                      <a
-                        href="javascript:void(0)"
-                        className="text-white text-sm ml-4"
-                      >
-                        +158 996 888
-                      </a>
+                      <div className="text-gray-700 text-sm ml-4">{phone}</div>
                     </li>
                     <li className="flex items-center">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="16px"
                         height="16px"
-                        fill="#fff"
+                        fill="#000"
                         viewBox="0 0 368.16 368.16"
                       >
                         <path
@@ -89,18 +80,13 @@ export default function Contact() {
                           data-original="#000000"
                         ></path>
                       </svg>
-                      <a
-                        href="javascript:void(0)"
-                        className="text-white text-sm ml-4"
-                      >
-                        123 Street 256 House
-                      </a>
+                      <div className="text-gray-700 text-sm ml-4">Houten</div>
                     </li>
                   </ul>
 
                   <ul className="flex mt-12 space-x-4">
                     <li className="bg-maindark hover:bg-maindarker h-10 w-10 rounded-full flex items-center justify-center shrink-0">
-                      <a href="javascript:void(0)">
+                      <a href="https://www.instagram.com/happy_balancehouten/">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width="18px"
@@ -116,7 +102,7 @@ export default function Contact() {
                       </a>
                     </li>
                     <li className="bg-maindark hover:bg-maindarker h-10 w-10 rounded-full flex items-center justify-center shrink-0">
-                      <a href="javascript:void(0)">
+                      <a href="/">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width="18px"
@@ -132,7 +118,7 @@ export default function Contact() {
                       </a>
                     </li>
                     <li className="bg-maindark hover:bg-maindarker h-10 w-10 rounded-full flex items-center justify-center shrink-0">
-                      <a href="javascript:void(0)">
+                      <a href="https://www.instagram.com/happy_balancehouten/">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width="18px"
@@ -146,63 +132,9 @@ export default function Contact() {
                     </li>
                   </ul>
                 </div>
-
-                <div className="bg-gray-100 p-6 rounded-lg">
-                  <p className="text-sm font-semibold text-gray-800">
-                    I'm interested in...
-                  </p>
-
-                  <form className="mt-8 space-y-4">
-                    <input
-                      type="text"
-                      placeholder="Name"
-                      className="w-full rounded-lg py-3 px-4 text-gray-800 text-sm outline-maindarker"
-                    />
-                    <input
-                      type="email"
-                      placeholder="Email"
-                      className="w-full rounded-lg py-3 px-4 text-gray-800 text-sm outline-maindarker"
-                    />
-                    <input
-                      type="text"
-                      placeholder="Subject"
-                      className="w-full rounded-lg py-3 px-4 text-gray-800 text-sm outline-maindarker"
-                    />
-                    <textarea
-                      placeholder="Message"
-                      rows="6"
-                      className="w-full rounded-lg px-4 text-gray-800 text-sm pt-3 outline-maindarker"
-                    ></textarea>
-                    <button
-                      type="button"
-                      className="text-white bg-maindark hover:bg-maindarker tracking-wide rounded-lg text-sm px-4 py-3 flex items-center justify-center w-full !mt-6"
-                    >
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="16px"
-                        height="16px"
-                        fill="#fff"
-                        className="mr-2"
-                        viewBox="0 0 548.244 548.244"
-                      >
-                        <path
-                          fill-rule="evenodd"
-                          d="M392.19 156.054 211.268 281.667 22.032 218.58C8.823 214.168-.076 201.775 0 187.852c.077-13.923 9.078-26.24 22.338-30.498L506.15 1.549c11.5-3.697 24.123-.663 32.666 7.88 8.542 8.543 11.577 21.165 7.879 32.666L390.89 525.906c-4.258 13.26-16.575 22.261-30.498 22.338-13.923.076-26.316-8.823-30.728-22.032l-63.393-190.153z"
-                          clip-rule="evenodd"
-                          data-original="#000000"
-                        />
-                      </svg>
-                      Send Message
-                    </button>
-                  </form>
-                </div>
+                <ContactForm />
               </div>
             </div>
-            <img
-              src={ingridimg}
-              className="my-10 md:mt-20 md:mr-10 md:flex-none md:max-h-60 rounded-full"
-              alt="Baby Massage"
-            />
           </div>
         </article>
       </main>
