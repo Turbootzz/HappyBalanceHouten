@@ -6,67 +6,71 @@ import { email } from "../config/config";
 
 export default function Footer() {
   return (
-    <footer class="bg-maindarker grow">
-      <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
-        <div class="md:flex md:justify-between">
-          <div class="mb-6 md:mb-0">
-            <a href="/" class="flex items-center">
-              <img src={hblogo} class="h-20 me-3" alt="Happy Balance Logo" />
-              <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+    <footer className="bg-maindarker grow">
+      <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+        <div className="md:flex md:justify-between">
+          <div className="mb-6 md:mb-0">
+            <a href="/" className="flex items-center">
+              <img
+                src={hblogo}
+                className="h-20 me-3"
+                alt="Happy Balance Logo"
+              />
+              <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
                 Happy Balance
               </span>
             </a>
           </div>
-          <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+          <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
             <div>
-              <h2 class="mb-6 text-xs md:text-sm font-semibold text-white uppercase">
+              <h2 className="mb-6 text-xs md:text-sm font-semibold text-white uppercase">
                 Contact
               </h2>
-              <ul class="text-main text-xs md:text-sm font-medium">
-                <li class="mb-4">
-                  <a href={"mailto:" + email} class="hover:text-white">
+              <ul className="text-main text-xs md:text-sm font-medium">
+                <li className="mb-4">
+                  <a href={"mailto:" + email} className="hover:text-white">
                     {email}
                   </a>
                 </li>
                 <li>
-                  <a href={"tel:" + phone} class="hover:text-white">
+                  <a href={"tel:" + phone} className="hover:text-white">
                     {phone}
                   </a>
                 </li>
               </ul>
             </div>
             <div>
-              <h2 class="mb-6 text-xs md:text-sm font-semibold text-white uppercase">
+              <h2 className="mb-6 text-xs md:text-sm font-semibold text-white uppercase">
                 Social Media
               </h2>
-              <ul class="text-main text-xs md:text-sm font-medium">
-                <li class="mb-4">
+              <ul className="text-main text-xs md:text-sm font-medium">
+                <li className="mb-4">
                   <a
                     href="https://www.instagram.com/happy_balancehouten/"
-                    class="hover:text-white "
+                    className="hover:text-white "
                   >
                     Instagram
                   </a>
                 </li>
                 <li>
-                  <a href="/" class="hover:text-white">
+                  <a href="/" className="hover:text-white">
                     Facebook
                   </a>
                 </li>
               </ul>
             </div>
             <div>
-              <h2 class="mb-6 text-xs md:text-sm font-semibold text-white uppercase">
+              <h2 className="mb-6 text-xs md:text-sm font-semibold text-white uppercase">
                 Legal
               </h2>
-              <ul class="text-main text-xs md:text-sm font-medium">
-                <li class="mb-4">
-                  <a href="/" class="hover:text-white">
+              <ul className="text-main text-xs md:text-sm font-medium">
+                <li className="mb-4">
+                  <a href="/" className="hover:text-white">
                     Privacy Policy
                   </a>
                 </li>
                 <li>
-                  <a href="/" class="hover:text-white">
+                  <a href="/" className="hover:text-white">
                     Terms &amp; Conditions
                   </a>
                 </li>
@@ -74,38 +78,38 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <hr class="my-6 border-white sm:mx-auto lg:my-8" />
-        <div class="sm:flex sm:items-center sm:justify-between">
-          <span class="text-xs md:text-sm text-white sm:text-center">
+        <hr className="my-6 border-white sm:mx-auto lg:my-8" />
+        <div className="sm:flex sm:items-center sm:justify-between">
+          <span className="text-xs md:text-sm text-white sm:text-center">
             © 2024{" "}
-            <a href="/" class="hover:underline">
+            <a href="/" className="hover:underline">
               HappyBalanceHouten™
             </a>
             . All Rights Reserved.
           </span>
-          <div class="flex mt-4 sm:justify-center sm:mt-0">
-            <a href="/" class="text-white hover:text-main">
+          <div className="flex mt-4 sm:justify-center sm:mt-0">
+            <a href="/" className="text-white hover:text-main">
               <svg
-                class="w-4 h-4"
+                className="w-4 h-4"
                 aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="currentColor"
                 viewBox="0 0 8 19"
               >
                 <path
-                  fill-rule="evenodd"
+                  fillRule="evenodd"
                   d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z"
-                  clip-rule="evenodd"
+                  clipRule="evenodd"
                 />
               </svg>
-              <span class="sr-only">Facebook page</span>
+              <span className="sr-only">Facebook page</span>
             </a>
             <a
               href="https://www.instagram.com/happy_balancehouten/"
-              class="text-white hover:text-main ms-5"
+              className="text-white hover:text-main ms-5"
             >
               <svg
-                class="w-4 h-4"
+                className="w-4 h-4"
                 aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="currentColor"
@@ -113,18 +117,18 @@ export default function Footer() {
               >
                 <path d="M 16 3 C 8.83 3 3 8.83 3 16 L 3 34 C 3 41.17 8.83 47 16 47 L 34 47 C 41.17 47 47 41.17 47 34 L 47 16 C 47 8.83 41.17 3 34 3 L 16 3 z M 37 11 C 38.1 11 39 11.9 39 13 C 39 14.1 38.1 15 37 15 C 35.9 15 35 14.1 35 13 C 35 11.9 35.9 11 37 11 z M 25 14 C 31.07 14 36 18.93 36 25 C 36 31.07 31.07 36 25 36 C 18.93 36 14 31.07 14 25 C 14 18.93 18.93 14 25 14 z M 25 16 C 20.04 16 16 20.04 16 25 C 16 29.96 20.04 34 25 34 C 29.96 34 34 29.96 34 25 C 34 20.04 29.96 16 25 16 z"></path>
               </svg>
-              <span class="sr-only">Instagram account</span>
+              <span className="sr-only">Instagram account</span>
             </a>
-            <a href="/" class="text-white hover:text-main ms-5">
+            <a href="/" className="text-white hover:text-main ms-5">
               <svg
-                class="w-4 h-4"
+                className="w-4 h-4"
                 aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="currentColor"
                 viewBox="0 0 512 512"
               >
                 <path
-                  class="st0"
+                  className="st0"
                   d="M511.878,247.973l-21.488,0.672l21.488-0.68c-2.168-69.219-31.732-131.348-77.876-175.949
 		C387.882,27.377,324.93-0.004,256.13,0.004c-2.718,0-5.443,0.046-8.176,0.13h0.016C178.743,2.294,116.622,31.858,72.013,78.002
 		C27.382,124.122,0,187.074,0,255.874c0,2.709,0.046,5.435,0.13,8.16c2.168,69.22,31.732,131.347,77.875,175.949
@@ -151,7 +155,7 @@ export default function Footer() {
 		c8.29-30.206,13.336-63.906,14.374-99.661h77.952C466.23,306.086,454.757,340.07,436.308,369.344z"
                 />
               </svg>
-              <span class="sr-only">Website</span>
+              <span className="sr-only">Website</span>
             </a>
           </div>
         </div>

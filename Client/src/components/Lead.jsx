@@ -9,11 +9,11 @@ export default function Lead() {
         </h1>
         <p className="text-lg pt-12 pb-8">&#10003; Ontspannen en in balans</p>
         <a href="#overmij">
-          <button class="hover:bg-maindarker text-black font-semibold py-2 px-4 border border-black rounded-3xl shadow">
+          <button className="hover:bg-maindarker text-black font-semibold py-2 px-4 border border-black rounded-3xl shadow">
             Lees meer
           </button>
         </a>
-        <div class="pb-36"></div>
+        <div className="pb-36"></div>
       </div>
       <hr className="h-px my-8 bg-maindark border-0" />
     </article>

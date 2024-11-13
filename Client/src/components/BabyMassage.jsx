@@ -45,7 +45,7 @@ export default function BabyMassage() {
               <li>Beter inmuunsysteem.</li>
             </menu>
           </div>
-          <div class="md:h-96 md:mt-6 md:mx-12 md:bg-main md:w-px mt-6"></div>
+          <div className="md:h-96 md:mt-6 md:mx-12 md:bg-main md:w-px mt-6"></div>
           <div className="flex content-center items-center justify-center">
             <img
               src={babyimg}

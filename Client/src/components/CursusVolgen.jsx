@@ -25,7 +25,7 @@ export default function CursusVolgen() {
             hun eigen baby en ik doe de massage voor op de pop.
           </p>
         </div>
-        <div class="md:max-h-96 md:my-6 md:mx-12 md:bg-maindarker md:w-px"></div>
+        <div className="md:max-h-96 md:my-6 md:mx-12 md:bg-maindarker md:w-px"></div>
         <div className="md:flex-1 mb-8">
           <h2 className="text-xl md:text-2xl font-bold mb-4">Data en kosten</h2>
           <h3 className="text-base font-semibold mb-1">Openingstijden:</h3>

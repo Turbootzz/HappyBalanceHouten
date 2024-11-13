@@ -11,7 +11,7 @@ export default function OverMij() {
           className="my-10 md:mt-20 md:mr-10 md:flex-none md:max-h-60 rounded-full"
           alt="Baby Massage"
         />
-        <div class="md:h-96 md:my-6 md:mr-12 md:bg-maindarker md:w-px"></div>
+        <div className="md:h-96 md:my-6 md:mr-12 md:bg-maindarker md:w-px"></div>
         <div className="flex-1">
           <h2 id="overmij" className="text-xl md:text-2xl font-bold mb-1">
             Over mij
