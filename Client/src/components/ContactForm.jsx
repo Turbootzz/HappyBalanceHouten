@@ -98,7 +98,9 @@ export default function ContactForm() {
           Send Message
         </button>
       </form>
-      {status && <p>{status}</p>}
+      {status && (
+        <p className="mt-2 text-sm font-semibold text-gray-800">{status}</p>
+      )}
     </div>
   );
 }
