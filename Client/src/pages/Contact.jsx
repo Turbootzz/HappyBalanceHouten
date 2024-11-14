@@ -86,7 +86,7 @@ export default function Contact() {
 
                   <ul className="flex mt-12 space-x-4">
                     <li className="bg-maindark hover:bg-maindarker h-10 w-10 rounded-full flex items-center justify-center shrink-0">
-                      <a href="https://www.instagram.com/happy_balancehouten/">
+                      <a href="https://www.facebook.com/ingrid.hermaneilander">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width="18px"
@@ -102,7 +102,7 @@ export default function Contact() {
                       </a>
                     </li>
                     <li className="bg-maindark hover:bg-maindarker h-10 w-10 rounded-full flex items-center justify-center shrink-0">
-                      <a href="/">
+                      <a href="https://www.linkedin.com/in/ingridherman">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width="18px"

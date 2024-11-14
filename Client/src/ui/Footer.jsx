@@ -53,7 +53,10 @@ export default function Footer() {
                   </a>
                 </li>
                 <li>
-                  <a href="/" className="hover:text-white">
+                  <a
+                    href="https://www.facebook.com/ingrid.hermaneilander"
+                    className="hover:text-white"
+                  >
                     Facebook
                   </a>
                 </li>
