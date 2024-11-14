@@ -1,5 +1,4 @@
 import React from "react";
-//import { phone } from "../config/config";
 import hblogo from "../assets/img/hb-logo.png";
 
 export default function Header() {
@@ -9,7 +8,7 @@ export default function Header() {
         <nav className="border-gray-200 dark:bg-maindarker">
           <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
             <a
-              href="../pages/Home.jsx"
+              href="/"
               className="flex items-center space-x-3 rtl:space-x-reverse"
             >
               <img src={hblogo} className="h-20" alt="HappyBalance Logo" />
@@ -17,14 +16,6 @@ export default function Header() {
                 Happy Balance
               </span>
             </a>
-            {/* <div className="flex items-center space-x-6 rtl:space-x-reverse">
-              <a
-                href={"tel:" + phone}
-                className="text-sm  text-gray-500 dark:text-white hover:underline"
-              >
-                {phone}
-              </a>
-            </div> */}
           </div>
         </nav>
         <nav className="bg-gray-50 dark:bg-maindark">
@@ -33,7 +24,7 @@ export default function Header() {
               <ul className="flex flex-row font-medium mt-0 space-x-8 rtl:space-x-reverse text-sm">
                 <li>
                   <a
-                    href="Home.jsx"
+                    href="/"
                     className="text-gray-900 dark:text-white hover:underline"
                     aria-current="page"
                   >
@@ -50,7 +41,7 @@ export default function Header() {
                 </li>
                 <li>
                   <a
-                    href="Contact.jsx"
+                    href="contact"
                     className="text-gray-900 dark:text-white hover:underline"
                   >
                     Contact
@@ -58,7 +49,7 @@ export default function Header() {
                 </li>
                 <li>
                   <a
-                    href="Voorwaarden.jsx"
+                    href="voorwaarden"
                     className="text-gray-900 dark:text-white hover:underline"
                   >
                     Voorwaarden

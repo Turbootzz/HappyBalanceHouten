@@ -10,9 +10,9 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route index element={<Home />} />
-        <Route path="Home.jsx" element={<Home />} />
-        <Route path="Contact.jsx" element={<Contact />} />
-        <Route path="Voorwaarden.jsx" element={<Voorwaarden />} />
+        <Route path="home" element={<Home />} />
+        <Route path="contact" element={<Contact />} />
+        <Route path="voorwaarden" element={<Voorwaarden />} />
         <Route path="*" element={<NoPage />} />
       </Routes>
     </BrowserRouter>
