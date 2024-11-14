@@ -33,7 +33,7 @@ export default function Header() {
                 </li>
                 <li>
                   <a
-                    href="#overmij"
+                    href="/#overmij"
                     className="text-gray-900 dark:text-white hover:underline"
                   >
                     Over mij
