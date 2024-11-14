@@ -42,7 +42,7 @@ export default function BabyMassage() {
               <br />
               <li>Bevordert de doorbloeding.</li>
               <br />
-              <li>Beter inmuunsysteem.</li>
+              <li>Beter immuunsysteem.</li>
             </menu>
           </div>
           <div className="md:h-96 md:mt-6 md:mx-12 md:bg-main md:w-px mt-6"></div>
