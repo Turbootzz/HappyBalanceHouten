@@ -1,7 +1,6 @@
 import React from "react";
 
 import hblogo from "../assets/img/hb-logo.png";
-import { phone } from "../config/config";
 import { email } from "../config/config";
 
 export default function Footer() {
@@ -33,8 +32,8 @@ export default function Footer() {
                   </a>
                 </li>
                 <li>
-                  <a href={"tel:" + phone} className="hover:text-white">
-                    {phone}
+                  <a href= "https://linkedin.com/in/ingridherman" className="hover:text-white">
+                    (LinkedIn) Ingrid Herman
                   </a>
                 </li>
               </ul>
