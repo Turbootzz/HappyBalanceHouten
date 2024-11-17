@@ -17,26 +17,34 @@ export default function OverMij() {
             Over mij
           </h2>
           <p className="text-sm md:text-base">
-            Ik ben Ingrid en vond het altijd al leuk om op baby’s te passen en
-            te verzorgen. Daarom zo in de kinderopvang terecht gekomen waar mijn
-            passie ligt. Zo ben ik nu al zo’n 32 jaar gespecialiseerd
-            babyleidster en werk nog steeds met veel plezier binnen de
-            kinderopvang. Door nog meer te kunnen betekenen voor de baby’s en ze
-            beter te kunnen laten ontspannen en aan te voelen, ben ik de
-            opleiding gaan volgen tot shantala babymassage docente. Zo mooi om
-            ouders te kunnen leren hoe ze hun baby kunnen masseren, waardoor hun
-            kindje kunnen laten ontspannen en helpen.
+            Mijn naam is Ingrid en al van jongs af aan vond ik het heerlijk om
+            voor baby’s te zorgen. Deze liefde heeft mij uiteindelijk naar de
+            kinderopvang geleid, waar ik al ruim 32 jaar met veel passie en
+            plezier werk als gespecialiseerde babyleidster.
           </p>
           <br />
           <p className="text-sm md:text-base">
-            Binnen mijn werk heb ik dan ook vele baby’s kunnen laten ontspannen
-            en les gegeven aan ouders. Vaak heb ik dan ook gemerkt en gezien wat
-            een massage al wel niet kan doen! Vooral bij prikkelgevoelige baby’s
-            gaf het zoveel rust en ontspanning zodat het veel beter kon slapen
-            en ontspannen. Bij krampjes of obstipatie geeft het verlichting en
-            ontspanning en zo betekent een massage nog zoveel meer. Verder kan
-            ik door mijn vele ervaring ook praktische tips of handvaten geven
-            over slapen en voeding of draagtechnieken.
+            Om baby’s nog beter te kunnen laten ontspannen en beter aan te
+            voelen wat ze nodig hebben, ben ik een opleiding gaan volgen tot
+            Shantala-babymassage docente. Het is mooi om ouders te leren hoe zij
+            hun baby kunnen masseren, zodat hun kindje zich kan ontspannen en
+            zich prettiger voelt.
+          </p>
+          <br />
+          <p className="text-sm md:text-base">
+            In mijn werk heb ik al vele baby’s geholpen om tot rust te komen en
+            heb ik ouders mogen begeleiden met babymassagelessen. Het is telkens
+            weer bijzonder om te zien wat een massage kan betekenen. Bij
+            prikkelgevoelige baby’s zorgt het voor meer rust, waardoor ze beter
+            slapen en ontspannen. Ook bij krampjes of obstipatie biedt een
+            massage vaak verlichting en ontspanning.
+          </p>
+          <br />
+          <p className="text-sm md:text-base">
+            Met mijn jarenlange ervaring geef ik daarnaast praktische tips en
+            adviezen over slapen, voeding en draagtechnieken. Mijn grootste
+            voldoening haal ik uit het ondersteunen van baby’s én hun ouders,
+            zodat zij samen een ontspannen en fijne start kunnen maken.
           </p>
         </div>
       </div>

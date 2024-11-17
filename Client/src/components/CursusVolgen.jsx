@@ -8,21 +8,31 @@ export default function CursusVolgen() {
           <h2 className="text-xl md:text-2xl font-bold mb-4">Cursus volgen</h2>
           <h3 className="text-base font-semibold mb-1">Individueel:</h3>
           <p className="text-sm md:text-base">
-            De babymassagecursus leer ik je graag en kom bij je thuis en deze
-            zal ongeveer 60 tot 90 minuten duren. Ik doe de massage voor op een
-            pop en jij masseert je baby tegelijkertijd. Je krijgt een handige
-            reader na afloop, waarin alle handelingen in staan beschreven.
-            Daarnaast krijg je nog een massageolie cadeau. Deze massageolie is
-            gebasseerd op natuurlijke stoffen en geschikt voor baby’s. Ben jij
-            enthousiast geworden en wil jij graag de shantalababymassage cursus
-            volgen met je kleintje? Laat het mij dan weten en vul dan het
-            inschrijfformulier en ik neem dan zsm contact met je op!
+            Wil je één-op-één leren hoe je je baby kunt masseren? Ik kom graag
+            bij je thuis om je de Shantala babymassage te leren. De cursus duurt
+            ongeveer 60 tot 90 minuten. Tijdens de sessie laat ik de massage
+            zien op een pop, terwijl jij je eigen baby masseert. Na afloop
+            ontvang je:
           </p>
+          <ul className="list-disc pl-4">
+            <li>
+              Een handige reader met duidelijke beschrijvingen van alle
+              technieken.
+            </li>
+            <li>
+              Een massageolie op basis van natuurlijke ingrediënten, speciaal
+              geschikt voor baby’s.
+            </li>
+          </ul>
           <h3 className="text-base font-semibold mt-6 mb-1">Duo:</h3>
           <p className="text-sm md:text-base">
-            Gezellig samen met een vriendin met een baby samen de
-            babymassagecursus volgen kan natuurlijk ook! Beide mama’s masseren
-            hun eigen baby en ik doe de massage voor op de pop.
+            Wil je samen met een vriendin de cursus volgen? Dat kan! Beide
+            mama’s masseren hun eigen baby, terwijl ik de massage voordoe op een
+            pop. Zo maken we er een gezellige en leerzame sessie van!
+            <br />
+            <br />
+            Laat me weten welke optie bij jou past, en we plannen samen een
+            fijne cursus in!
           </p>
         </div>
         <div className="md:max-h-96 md:my-6 md:mx-12 md:bg-maindarker md:w-px"></div>
