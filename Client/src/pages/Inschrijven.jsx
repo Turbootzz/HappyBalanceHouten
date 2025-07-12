@@ -70,7 +70,7 @@ export default function Inschrijven() {
 
                   <ul className="flex mt-12 space-x-4">
                     <li className="bg-maindark hover:bg-maindarker h-10 w-10 rounded-full flex items-center justify-center shrink-0">
-                      <a href="https://www.facebook.com/ingrid.hermaneilander">
+                      <a href="https://www.facebook.com/ingrideilander">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width="18px"
@@ -86,7 +86,7 @@ export default function Inschrijven() {
                       </a>
                     </li>
                     <li className="bg-maindark hover:bg-maindarker h-10 w-10 rounded-full flex items-center justify-center shrink-0">
-                      <a href="https://www.linkedin.com/in/ingridherman">
+                      <a href="https://www.linkedin.com/in/ingrideilander">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width="18px"

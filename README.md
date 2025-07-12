@@ -1,6 +1,6 @@
 # HappyBalance Houten
 
-This is a dutch business website for Ingrid Herman.
+This is a dutch business website for Ingrid Eilander.
 
 ## Design
 

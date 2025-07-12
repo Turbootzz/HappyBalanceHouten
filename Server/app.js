@@ -6,10 +6,16 @@ require('dotenv').config();
 
 const app = express();
 const PORT = process.env.PORT || 5000;
-
+ 
 // Middleware
+const allowedOrigins = [
+  'https://happybalancehouten.nl',
+  'https://www.happybalancehouten.nl',
+  'http://localhost:3000',
+];
+
 app.use(cors({
-    origin: 'https://happybalancehouten.nl'
+    origin: allowedOrigins
 }));
 app.use(bodyParser.json());
 
@@ -24,7 +30,7 @@ app.post('/send-email', async (req, res) => {
         secure: true,
         auth: {
             user: process.env.EMAIL_USER,
-            pass: process.env.EMAIL_PASS 
+            pass: process.env.EMAIL_PASS
         }
     });
 
@@ -33,7 +39,7 @@ app.post('/send-email', async (req, res) => {
         from: process.env.EMAIL_USER,
         to: process.env.EMAIL_RECEIVER,
         subject: `Contactformulier: ${subject} van ${name}`,
-        text: message,
+        html: message,
         replyTo: email
     };
 

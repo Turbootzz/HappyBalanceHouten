@@ -32,8 +32,8 @@ export default function Footer() {
                   </a>
                 </li>
                 <li>
-                  <a href= "https://linkedin.com/in/ingridherman" className="hover:text-white">
-                    (LinkedIn) Ingrid Herman
+                  <a href= "https://linkedin.com/in/ingrideilander" className="hover:text-white">
+                    (LinkedIn) Ingrid Eilander
                   </a>
                 </li>
               </ul>
@@ -53,7 +53,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <a
-                    href="https://www.facebook.com/ingrid.hermaneilander"
+                    href="https://www.facebook.com/ingrideilander"
                     className="hover:text-white"
                   >
                     Facebook
@@ -91,7 +91,7 @@ export default function Footer() {
           </span>
           <div className="flex mt-4 sm:justify-center sm:mt-0">
             <a
-              href="https://www.facebook.com/ingrid.hermaneilander"
+              href="https://www.facebook.com/ingrideilander"
               className="text-white hover:text-main"
             >
               <svg
@@ -125,7 +125,7 @@ export default function Footer() {
               <span className="sr-only">Instagram account</span>
             </a>
             <a
-              href="https://www.linkedin.com/in/ingridherman"
+              href="https://www.linkedin.com/in/ingrideilander"
               className="text-white hover:text-main ms-5"
             >
               <svg

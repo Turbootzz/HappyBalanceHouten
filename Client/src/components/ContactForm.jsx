@@ -20,6 +20,7 @@ export default function ContactForm() {
     try {
       const response = await fetch(
         "https://happybalance.turboot.com/send-email",
+        //"http://localhost:5050/send-email",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
