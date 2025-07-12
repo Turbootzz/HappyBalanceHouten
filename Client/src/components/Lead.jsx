@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Lead() {
   return (
-    <article className="bg-main">
+    <section className="bg-main">
       <div className="px-5 md:px-10 lg:px-56">
         <h1 className="font-pacifico text-5xl md:text-7xl pt-24">
           Happy Balance!
@@ -16,6 +16,6 @@ export default function Lead() {
         <div className="pb-36"></div>
       </div>
       <hr className="h-px my-8 bg-maindark border-0" />
-    </article>
+    </section>
   );
 }

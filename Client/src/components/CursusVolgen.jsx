@@ -2,7 +2,7 @@ import React from "react";
 
 export default function CursusVolgen() {
   return (
-    <article className="bg-mainbg">
+    <section className="bg-mainbg">
       <div className="px-2 md:px-10 md:flex lg:px-56">
         <div className="md:flex-1 mb-10">
           <h2 className="text-xl md:text-2xl font-bold mb-4">Cursus volgen</h2>
@@ -53,6 +53,6 @@ export default function CursusVolgen() {
           </p>
         </div>
       </div>
-    </article>
+    </section>
   );
 }

@@ -40,8 +40,8 @@ export default function ContactForm() {
   };
 
   return (
-    <div className="bg-gray-100 p-6 rounded-lg">
-      <p className="text-sm font-semibold text-gray-800">Neem contact op:</p>
+    <div className=" p-6 rounded-lg">
+      <p className="text-2xl font-semibold text-gray-800">Neem contact op:</p>
 
       <form className="mt-8 space-y-4" onSubmit={handleSubmit}>
         <input

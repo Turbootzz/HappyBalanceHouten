@@ -3,7 +3,7 @@ import babyimg from "../assets/img/img1.jpeg";
 
 export default function BabyMassage() {
   return (
-    <article className="bg-mainbg">
+    <section className="bg-mainbg">
       <div className="px-2 md:px-10 lg:px-56">
         <h1 className="text-3xl md:text-4xl font-bold pt-16">Babymassage</h1>
         <br />
@@ -55,6 +55,6 @@ export default function BabyMassage() {
           </div>
         </div>
       </div>
-    </article>
+    </section>
   );
 }

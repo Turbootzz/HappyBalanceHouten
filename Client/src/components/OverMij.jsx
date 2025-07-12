@@ -3,7 +3,7 @@ import ingridimg from "../assets/img/selfsmall.jpg";
 
 export default function OverMij() {
   return (
-    <article className="bg-main">
+    <section className="bg-main">
       <hr className="h-px my-8 bg-maindark border-0" />
       <div className="px-2 md:px-10 pb-10 md:flex lg:px-56">
         <img
@@ -49,6 +49,6 @@ export default function OverMij() {
         </div>
       </div>
       <hr className="h-px mb-8 md:my-8 bg-maindark border-0" />
-    </article>
+    </section>
   );
 }

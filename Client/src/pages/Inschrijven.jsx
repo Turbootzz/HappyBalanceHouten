@@ -1,13 +1,12 @@
-import React from "react";
 import Header from "../ui/Header";
 import Footer from "../ui/Footer";
-import ContactForm from "../components/ContactForm";
+import InschrijfFormulier from "../components/InschrijfFormulier";
 import ingridimg from "../assets/img/selfsmall.jpg";
 import { email } from "../config/config";
 
-export default function Contact() {
-  return (
-    <>
+export default function Inschrijven() {
+    return (
+        <>
       <Header />
       <main className="mx-auto">
         <section className="bg-mainbg">
@@ -117,7 +116,7 @@ export default function Contact() {
                     </li>
                   </ul>
                 </div>
-                <ContactForm />
+                <InschrijfFormulier />
               </div>
             </div>
           </div>
@@ -125,5 +124,5 @@ export default function Contact() {
       </main>
       <Footer />
     </>
-  );
-}
+    );
+    }
