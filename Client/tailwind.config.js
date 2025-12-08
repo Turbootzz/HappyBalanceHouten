@@ -15,8 +15,8 @@ module.exports = {
       fontFamily: {
         noto: ['Noto Serif', 'serif'],
         pacifico: ['Pacifico', 'cursive'],
+      },
     },
   },
   plugins: [],
-  }
 };
